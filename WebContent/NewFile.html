@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My title</title>
+</head>
+<body>
+	
+	<form method="POST" action="MyServlet">
+		<table>
+		<tr>
+				<td>Имя:</td>
+				<td><input type="text" name="firstName"></td>
+			</tr>
+			<tr>
+				<td>Фамилия:</td>
+				<td><input type="text" name="secondName"></td>
+			</tr>
+			<tr>
+				<td>Отчество:</td>
+				<td><input type="text" name="thirdName"></td>
+			</tr>
+			<tr>
+				<td>Место рождения:</td>
+				<td><input type="text" name="birthPlace"></td>
+			</tr>
+			<tr>
+				<td>Пол:</td>
+				<td>
+					
+						<input type="radio" name="gender" value="М">Мужчина</input>
+						<input type="radio" name="gender" value="Ж">Женщина</input>
+				</td>
+			</tr>
+			<tr>
+				<td>Старше 18 лет:</td>
+				<td>
+					
+						<input type="checkbox" name="age18" value="ДА">Да</input>
+				</td>
+			</tr>
+				<td>Логин:</td>
+				<td><input type="text" name="login"></td>
+			</tr>
+			<tr>
+				<td>Пароль:</td>
+				<td><input type="password" name="pass"></td>
+			</tr>
+			<tr>
+				<td>email:</td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td align="right" colspan="2"><input type="submit" value="Отправить"></td>
+			<tr>
+		</table>
+	</form>
+</body>
+</html>
